@@ -4,7 +4,7 @@ import './ResponsiveBar.css';
 
 
 const sample = [
-        {category:'ACCIDENT', quantity: 40},
+        {category:'Accident', quantity: 40},
         {category:'THEFT', quantity: 151},
         {category:'THEFT FROM AUTO', quantity: 89},
         {category:'ROBBERY- COMMERCIAL', quantity: 124}
@@ -87,13 +87,13 @@ function Chart() {
             .attr('height', d => y(0) - y(d.quantity))
             .attr('width', x.bandwidth());
             // Title
-            svg.append('text')
+            /* svg.append('text')
             .attr('x', (200))
             .attr('y', (15))
             .attr('text-anchor', 'middle')
             .attr('font-size', '16px')
             .attr('fill', 'white')
-            .text('Crime incidents in Prince Georges County');
+            .text('Crime incidents in Prince Georges County'); */
     }
 
     return (
