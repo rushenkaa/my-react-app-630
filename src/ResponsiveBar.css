@@ -2,3 +2,34 @@
 	width: 100vw;
 	height: 50vh;
 }
+
+@font-face {
+    font-family: 'Poppins', sans-serif;
+    src: href="https://fonts.googleapis.com/css2?family=Poppins"};
+
+*{
+    
+}
+body {
+    background: #C7C2D3;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+   color: #000000;
+   font-size: 50px;
+   padding-top: 20px;
+   width: 100%;
+   font-family: 'Poppins';
+   text-align: center;
+ }
+
+ p {
+    color: #000000;
+    font-size: 20px;
+    padding-top: 30px;
+    width: 100%;
+    font-family: 'Poppins';
+    text-align: center;
+  }

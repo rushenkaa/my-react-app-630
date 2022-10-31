@@ -5,9 +5,9 @@ import './ResponsiveBar.css';
 
 const sample = [
         {category:'ACCIDENT', quantity: 40},
-        {category:'THEFT', quantity: 151},
-        {category:'THEFT FROM AUTO', quantity: 89},
-        {category:'ROBBERY- COMMERCIAL', quantity: 124}
+        {category:'Theft', quantity: 151},
+        {category:'Theft from Auto', quantity: 89},
+        {category:'Robbery-Commercial', quantity: 124}
 ]
 
 
@@ -87,13 +87,14 @@ function Chart() {
             .attr('height', d => y(0) - y(d.quantity))
             .attr('width', x.bandwidth());
             // Title
-            svg.append('text')
+        svg.append('text')
             .attr('x', (200))
             .attr('y', (15))
             .attr('text-anchor', 'middle')
-            .attr('font-size', '16px')
+            .attr('font-size', '40px')
             .attr('fill', 'white')
-            .text('Crime incidents in Prince Georges County');
+            .text("Crime Incidents Per Type in Prince George's County, Maryland");
+            <p>The chart below shows the number of incidents per type of crime that occurred from 2017 to the present day.</p>
     }
 
     return (
