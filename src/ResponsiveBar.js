@@ -4,7 +4,7 @@ import './ResponsiveBar.css';
 
 
 const sample = [
-        {category:'ACCIDENT', quantity: 40},
+        {category:'Accident', quantity: 40},
         {category:'Theft', quantity: 151},
         {category:'Theft from Auto', quantity: 89},
         {category:'Robbery-Commercial', quantity: 124}
