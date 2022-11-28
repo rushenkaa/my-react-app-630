@@ -6,8 +6,6 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <LineChart />
-        <Chart />
       </header>
     </div>
   );

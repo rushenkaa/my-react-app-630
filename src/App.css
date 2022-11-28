@@ -4,7 +4,7 @@
 
 
 .App-header {
-  background-color: #282c34;
+  background-color: #f4f4f4;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -12,7 +12,7 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-  background-image: linear-gradient(black,grey);
+  background-image: linear-gradient(rgb(226, 223, 223),rgb(250, 243, 243));
 }
 
 .App-link {

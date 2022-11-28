@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from 'react';
 import * as d3 from 'd3';
-//use TODO to keep track of code you want to revist 
+//use TODO to keep track of code you want to revisit 
 
 export function LineChart() {
 
@@ -19,7 +19,7 @@ export function LineChart() {
                 });
 
                 // get dates
-                const dates = [...new Set(dates.map(each => each.date.slice(0, 10)))];
+                const datesnew = [...new Set(datesnew.map(each => each.date.slice(0, 10)))];
 // NEW- try using data?.length and get a button to refresh 
                 let CountsByDate = [];
 
