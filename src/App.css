@@ -19,5 +19,20 @@
   color: #61dafb;
 }
 
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+    src: href="https://fonts.googleapis.com/css2?family=Poppins";
+  /* -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; */
+}
 
+code {
+  font-family: 'Poppins', sans-serif;
+  src: href="https://fonts.googleapis.com/css2?family=Poppins"};
+
+#d3demo{
+  width: 80vw;
+  height: 50vw;
+}
 
