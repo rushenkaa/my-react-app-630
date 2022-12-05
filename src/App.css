@@ -2,7 +2,6 @@
   text-align: center;
 }
 
-
 .App-header {
   background-color: #f4f4f4;
   min-height: 100vh;
@@ -19,7 +18,7 @@
   color: #61dafb;
 }
 
-body {
+.App-body {
   margin: 0;
   font-family: 'Poppins', sans-serif;
     src: href="https://fonts.googleapis.com/css2?family=Poppins";
@@ -27,7 +26,7 @@ body {
   -moz-osx-font-smoothing: grayscale; */
 }
 
-code {
+.App-code {
   font-family: 'Poppins', sans-serif;
   src: href="https://fonts.googleapis.com/css2?family=Poppins"};
 
