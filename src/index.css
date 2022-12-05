@@ -1,7 +1,8 @@
 body {
-  margin: 0;
+  margin: 5;
   font-family: 'Poppins', sans-serif;
     src: href="https://fonts.googleapis.com/css2?family=Poppins";
+    background-color: black;
   /* -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; */
 }
@@ -13,4 +14,33 @@ code {
 #d3demo{
   width: 80vw;
   height: 50vw;
+}
+img{
+  width: 100%;
+  height: auto;
+}
+h1 {
+  text-align:center;
+  color: white;
+}
+h2 {
+  text-align:center;
+  color: white;
+}
+#inputandbutton{
+  text-align:center;
+}
+h3{
+  color: white;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
+#caption{
+  margin-left: auto;
+  margin-right: auto;
+  text-align:center;
 }
