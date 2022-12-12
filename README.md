@@ -4,5 +4,3 @@ We are using the official NASA APOD API to display the picture of the day on thi
 
 API source- https://api.nasa.gov
 
-
-For the final submission, we plan on populating a list of images for a range of dates and also render videos. 
