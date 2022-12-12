@@ -36,7 +36,16 @@ h2 {
   line-height: 40px;
   
   color: #74F4ED;
-  
+}
+
+button{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align:center;
+  font-family: 'Orbitron';
+  font-style: normal;
 }
 
 body {
@@ -44,10 +53,6 @@ body {
   background: url(https://images.unsplash.com/photo-1506318137071-a8e063b4bec0?ixlib=rb-4.0.3&dl=jeremy-perkins-uhjiu8FjnsQ-unsplash.jpg&q=80&fm=jpg&crop=entropy&cs=tinysrgb);
   background-size: 1530px;
 }
-
-code {
-  font-family: 'Lato', sans-serif;
-  src: href="https://fonts.googleapis.com/css2?family=Lato"}; 
 
 #d3demo{
   width: 80vw;
@@ -85,17 +90,6 @@ h3{
   margin-top: 50px;
   margin-bottom: 50px;
   text-align:center;
-}
-
-
-button{
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  text-align:center;
-  font-family: 'Orbitron';
-  font-style: normal;
 }
 
 
