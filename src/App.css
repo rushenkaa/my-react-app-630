@@ -2,9 +2,8 @@
   text-align: center;
 }
 
-
 .App-header {
-  background-color: #282c34;
+  background-color: #f4f4f4;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -12,12 +11,26 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-  background-image: linear-gradient(black,grey);
+  background-image: linear-gradient(rgb(226, 223, 223),rgb(250, 243, 243));
 }
 
 .App-link {
   color: #61dafb;
 }
 
+.App-container {
+  width: 1200px;
+  height:600px;
+  background-image: url(https://images.unsplash.com/photo-1505506874110-6a7a69069a08?ixlib=rb-4.0.3&dl=ivana-cajina-asuyh-_ZX54-unsplash.jpg&q=80&fm=jpg&crop=entropy&cs=tinysrgb);
+  background-size: cover; /* or contain depending on what you want */
+  background-position: center center;
+  background-repeat: no-repeat;
+  text-align:center;
+  margin:auto;
+  padding:0;
+}
 
-
+#d3demo{
+  width: 80vw;
+  height: 50vw;
+}

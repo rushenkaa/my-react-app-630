@@ -1,16 +1,187 @@
-body {
-  margin: 0;
-  font-family: 'Poppins', sans-serif;
-    src: href="https://fonts.googleapis.com/css2?family=Poppins";
-  /* -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale; */
+h1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 46px; 
+  gap: 10px; 
+  
+  font-family: 'Orbitron';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 60px;
+  
+  color: #63dfd8;
+} 
+
+h2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 46px; 
+  gap: 10px; 
+
+  position: absolute;
+  width: 563px;
+  height: 40px;
+  left: calc(50% - 563px/2 - 32.5px);
+  top: 188px;
+  
+  font-family: 'Orbitron';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 40px;
+  
+  color: #63dfd8;
 }
 
-code {
-  font-family: 'Poppins', sans-serif;
-  src: href="https://fonts.googleapis.com/css2?family=Poppins"};
+button{
+  align-items: center;
+  appearance: none;
+  background-image: radial-gradient(100% 100% at 100% 0, #5e69db 0, #74c9f4 100%);
+  border: 0;
+  border-radius: 15px;
+  box-shadow: rgba(45, 35, 66, .4) 0 2px 4px,rgba(45, 35, 66, .3) 0 7px 13px -3px,rgba(58, 65, 111, .5) 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  display: inline-flex;
+  font-family: 'Orbitron',monospace;
+  height: 48px;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 16px;
+  padding-right: 16px;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transition: box-shadow .15s,transform .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow,transform;
+  font-size: 18px;
+}
+
+.button:focus {
+  box-shadow: #3c9ce0 0 0 0 1.5px inset, rgba(45, 35, 66, .4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3cafe0 0 -3px 0 inset;
+}
+
+.button:hover {
+  box-shadow: rgba(45, 35, 66, .4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+
+input[type="date"] {
+  align-items: center;
+  appearance: none;
+  background-image: radial-gradient(100% 100% at 100% 0, #5e69db 0, #74c9f4 100%);
+  border: 0;
+  border-radius: 15px;
+  box-shadow: rgb(0, 0, 0) 0 2px 4px,rgba(45, 35, 66, .3) 0 7px 13px -3px,rgba(58, 65, 111, .5) 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  display: inline-flex;
+  font-family: 'Orbitron',monospace;
+  height: 48px;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 16px;
+  padding-right: 16px;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transition: box-shadow .15s,transform .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow,transform;
+  font-size: 18px;
+}
+
+body {
+  margin: 5;
+  background: url(https://images.unsplash.com/photo-1506318137071-a8e063b4bec0?ixlib=rb-4.0.3&dl=jeremy-perkins-uhjiu8FjnsQ-unsplash.jpg&q=80&fm=jpg&crop=entropy&cs=tinysrgb);
+  background-size: 1530px;
+}
+
+.front {
+  display: block;
+  position: relative;
+  padding: 12px 42px;
+  border-radius: 12px;
+  font-size: 1.25rem;
+  background: rgb(0, 240, 236);
+  color: white;
+  transform: translateY(-6px);
+}
+.space {
+  width: 20px;
+  height: auto;
+  display: inline-block;
+}
 
 #d3demo{
   width: 80vw;
   height: 50vw;
+}
+img{
+  width: 100%;
+  height: auto;
+  margin-top: 100px;
+}
+#iframe{
+  border: 1000px;
+  width: 700px;
+  height: 500px;
+  justify-content: center;
+  text-align:center;
+  flex-direction: row;
+  display:block;
+  margin:auto;
+  display:none;
+}
+
+#inputandbutton{
+  
+  text-align:center;
+  display: flex; 
+  flex-direction: row;
+  justify-content: center; 
+  align-items: center;
+  text-align:center; 
+  font-family: 'Orbitron';
+  font-style: normal;
+} 
+h3{
+  color: #74F4ED;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
+#caption{
+  margin-left: 80px;
+  margin-right: 80px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align:center;
+}
+
+
+input{
+  font-family: 'Orbitron';
+  font-style: normal;
 }
