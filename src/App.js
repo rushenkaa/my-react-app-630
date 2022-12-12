@@ -1,4 +1,5 @@
 import './App.css';
+
 document.querySelector('button').addEventListener('click', getFetch)
 function getFetch(){
     const choice = document.querySelector('input').value
@@ -23,12 +24,22 @@ function getFetch(){
     });
 }
 
+
 function App() {
   return (
-    <div className="App">
+    
+    <BrowserRouter>
+      <div>
+        <Route component={Home} path="/" exact/>
+        <Route component={NasaPhoto} path="/nasaphoto" />
+      </div>
+    </BrowserRouter>
+    
+    
+    /* <div className="App">
       <header className="App-header">
       </header>
-    </div>
+    </div> /*
   );
 }
 
