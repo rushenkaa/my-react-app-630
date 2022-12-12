@@ -1,15 +1,53 @@
+h1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 46px; 
+  gap: 10px; 
+  
+  font-family: 'Orbitron';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 60px;
+  
+  color: #74F4ED;
+} 
+
+h2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 46px; 
+  gap: 10px; 
+
+  position: absolute;
+  width: 563px;
+  height: 40px;
+  left: calc(50% - 563px/2 - 32.5px);
+  top: 188px;
+  
+  font-family: 'Orbitron';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 40px;
+  
+  color: #74F4ED;
+  
+}
+
 body {
   margin: 5;
-  font-family: 'Poppins', sans-serif;
-    src: href="https://fonts.googleapis.com/css2?family=Poppins";
-    background-color: black;
-  /* -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale; */
+  background: url(https://images.unsplash.com/photo-1506318137071-a8e063b4bec0?ixlib=rb-4.0.3&dl=jeremy-perkins-uhjiu8FjnsQ-unsplash.jpg&q=80&fm=jpg&crop=entropy&cs=tinysrgb);
+  background-size: 1530px;
 }
 
 code {
-  font-family: 'Poppins', sans-serif;
-  src: href="https://fonts.googleapis.com/css2?family=Poppins"};
+  font-family: 'Lato', sans-serif;
+  src: href="https://fonts.googleapis.com/css2?family=Lato"}; 
 
 #d3demo{
   width: 80vw;
@@ -18,20 +56,22 @@ code {
 img{
   width: 100%;
   height: auto;
+  margin-top: 50px;
 }
-h1 {
-  text-align:center;
-  color: white;
-}
-h2 {
-  text-align:center;
-  color: white;
-}
+
 #inputandbutton{
+  
   text-align:center;
-}
+  display: flex; 
+  flex-direction: row;
+  justify-content: center; 
+  align-items: center;
+  text-align:center; 
+  font-family: 'Orbitron';
+  font-style: normal;
+} 
 h3{
-  color: white;
+  color: #74F4ED;
 }
 .center {
   display: block;
@@ -40,7 +80,28 @@ h3{
   width: 90%;
 }
 #caption{
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 80px;
+  margin-right: 80px;
+  margin-top: 50px;
+  margin-bottom: 50px;
   text-align:center;
 }
+
+
+button{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align:center;
+  font-family: 'Orbitron';
+  font-style: normal;
+}
+
+
+input{
+  font-family: 'Orbitron';
+  font-style: normal;
+}
+
+

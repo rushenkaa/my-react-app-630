@@ -9,18 +9,56 @@
     <!--adding extenal css links-->
     <link rel= "stylesheet" href="css/index.css">
     <link rel= "stylesheet" href="css/style.css">
+    <link href='https://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet'>
+   <style>
+body {
+    font-family: 'Orbitron';font-size: 22px;
+    background-image: url(https://images.unsplash.com/photo-1506318137071-a8e063b4bec0?ixlib=rb-4.0.3&dl=jeremy-perkins-uhjiu8FjnsQ-unsplash.jpg&q=80&fm=jpg&crop=entropy&cs=tinysrgb); 
+  }
+  .pushable {
+    position: relative;
+    background: rgb(0, 158, 163);
+    border-radius: 12px;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    outline-offset: 4px;
+  }
+  .front {
+    display: block;
+    position: relative;
+    padding: 12px 42px;
+    border-radius: 12px;
+    font-size: 1.25rem;
+    background: rgb(0, 240, 236);
+    color: white;
+    transform: translateY(-6px);
+  }
+
+  .pushable:active .front {
+    transform: translateY(-2px);
+    transition: transform 34ms;
+  }
+</style>
+
+<button class="pushable">
+  <span class="front">
+    Get Media
+  </span>
+</button>
+    </style>
     </head>
 <body>
   <h1> ASTRONOMICAL PICTURE OF THE DAY </h1>
   <div id="inputandbutton">
   <input type="date" name="" value="">
-  <button type="button" name="button"> Get Media</button>
+  <!-- <button type="button" name="button"> Get Media</button> -->
   </div>
 
   <h2> There's a new image everyday!</h2>
   <img src="hdurl" alt="" class="center">
   <div id="caption">
-  <h3>Explanation</h3>
+  <h3> </h3> 
 </div>
 
   <script type="text.javascript" src="main.js"></script>

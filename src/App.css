@@ -18,20 +18,19 @@
   color: #61dafb;
 }
 
-.App-body {
-  margin: 0;
-  font-family: 'Poppins', sans-serif;
-    src: href="https://fonts.googleapis.com/css2?family=Poppins";
-  /* -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale; */
+.App-container {
+  width: 1200px;
+  height:600px;
+  background-image: url(https://images.unsplash.com/photo-1505506874110-6a7a69069a08?ixlib=rb-4.0.3&dl=ivana-cajina-asuyh-_ZX54-unsplash.jpg&q=80&fm=jpg&crop=entropy&cs=tinysrgb);
+  background-size: cover; /* or contain depending on what you want */
+  background-position: center center;
+  background-repeat: no-repeat;
+  text-align:center;
+  margin:auto;
+  padding:0;
 }
-
-.App-code {
-  font-family: 'Poppins', sans-serif;
-  src: href="https://fonts.googleapis.com/css2?family=Poppins"};
 
 #d3demo{
   width: 80vw;
   height: 50vw;
 }
-
